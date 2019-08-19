@@ -26,7 +26,7 @@ If this is your first time using our testing software, you'll need to authorize 
 
 ![Install OAuth](images/install-oauth.png)
 
-After this, you will need to sign into Jenkins with your BJU username / password.
+After this, you will need to sign into [Jenkins](https://protect.bju.edu/cps/jenkins) with your BJU username / password.
 
 ![Login](images/login.png)
 
