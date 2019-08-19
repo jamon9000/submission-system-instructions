@@ -4,7 +4,7 @@
 
 # Sign In to Submiter / Jenkins
 
-Go to [Jenkins](http://internal.bjucps.dev/jenkins/), and you will need to sign into Jenkins with your BJU username / password.
+Go to [Jenkins](https://protect.bju.edu/cps/jenkins), and you will need to sign into Jenkins with your BJU username / password.
 
 ![Login](images/login.png)
 
@@ -14,7 +14,7 @@ WARNING! Make sure that you enter your username in lowercase.  Using capital let
 
 ### Submitting
 
-To submit an assignment, go to [Submiter](http://csunix.bju.edu/submit/upload).
+To submit an assignment, go to [Submiter](https://protect.bju.edu/cps/submit/upload).
 
 ![Submiter Dashboard](images/submiter-dashboard.png)
 
