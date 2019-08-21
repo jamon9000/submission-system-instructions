@@ -89,8 +89,8 @@ WARNING! Make sure that you enter your username in lowercase.  Using capital let
 
 Once you're at the test page, simply click `Build Now` along the right hand side.
 
-![Build Now](images/git/build-now.png)
+![Build Now](images/webui/build-now.png)
 
 In the build results, if you get a blue dot, you've passed all the provided tests.  Note that you are still advised to create your own tests as the instructor tests are much more thorough than the Jenkins tests.
 
-![Build Now Done](images/git/build-now-done.png)
+![Build Now Done](images/webui/build-now-done.png)

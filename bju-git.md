@@ -1,8 +1,16 @@
 # Instructions for BJU's Git System
 
+* [Setting up for Command Line Submission](#setting-up-for-command-line-submission)
+  + [Step 1: Create and Upload Public Key](#step-1-create-and-upload-public-key)
+  + [Step 2: Configure Git](#step-2-configure-git)
+* [Performing Command Line Submission](#performing-command-line-submission)
+  + [Cloning an Assignment Repository](#cloning-an-assignment-repository)
+  + [Updating an Assignment Repository](#updating-an-assignment-repository)
+  + [Testing an Assignment](#testing-an-assignment)
+
 These instructions describe how to submit assignments from the command line using Git. Because you must generate a private security key, these instructions are intended for use on a personally-owned device. 
 
-Submitting from the command line involves creating a private/public key pair that is used to authenticate you to the BJU Computer Science git submission repository. This key pair is stored in a special folder in your home directory named .ssh. You must register the public part of the key pair with Jenkins, which allows you to use it to authenticate to our git submission repository.
+Submitting from the command line involves creating a private/public key pair that is used to authenticate you to the BJU Computer Science git submission repository. This key pair is stored in a special folder in your home directory on your computer named .ssh. You must register the public part of the key pair with Jenkins, which allows you to use it to authenticate to our git submission repository.
 
 > Note: The images here were produced on an OS X machine, but the same instructions (unless otherwise noted) also apply to Windows / Linux machines.
 
@@ -20,13 +28,15 @@ ssh-keygen -t rsa
 
 As shown in the image above, you should press enter at each prompt to accept the defaults (we recommend not setting a passphrase).
 
+> NOTE: If the ssh-keygen command is not installed on your system, see [these instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to install it. You do not need to install the OpenSSH server - only the client.
+
 ![SSH Keygen Output](images/git/ssh-keygen-output.png)
 
 Make a note of the location where your "public key" has been saved (this is the file you will need to upload to Jenkins).
 
 Now login to [Jenkins](https://protect.bju.edu/cps/jenkins/job/git-ssh-key-upload/) with your BJU username / password.
 
-| :warning: NOTE: Make sure that you enter your username in lowercase.  Using capital letters will cause the testing system to not recognize your login attempt and you will be denied access.
+> :warning: NOTE: Make sure that you enter your username in lowercase.  Using capital letters will cause the testing system to not recognize your login attempt and you will be denied access.
 
 ![Login Lowercase](images/git/login-lowercase.png)
 
@@ -109,8 +119,8 @@ To test an assignment, click the `Check Submission` link at the top of the Submi
 
 Once you're at the test page, simply click `Build Now` along the right hand side.
 
-![Build Now](images/git/build-now.png)
+![Build Now](images/webui/build-now.png)
 
 In the build results, if you get a blue dot, you've passed all the provided tests.  Note that you are still advised to create your own tests as the instructor tests are much more thorough than the Jenkins tests.
 
-![Build Now Done](images/git/build-now-done.png)
+![Build Now Done](images/webui/build-now-done.png)
