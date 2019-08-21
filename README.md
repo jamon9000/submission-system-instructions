@@ -1,6 +1,11 @@
-# Select the Submission System
+# BJU Computer Science Submission System
 
-[BJU's Git System](internal.md)
+These documents describe the submission system used the BJU Department of Computer Science. Please select the appropriate
+section for more details:
 
-[Github Classroom](github.md)
+* [Web Submission](bju-webui.md) (for CpS 110)
+
+* [Command Line Submission](README-git.md)
+
+* [Github Classroom](github-webui.md)
 

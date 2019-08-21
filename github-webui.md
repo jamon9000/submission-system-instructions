@@ -6,11 +6,11 @@
 
 Click the invitation URL provided to you by your professor.  A sample assignment for you to follow along with is provided [here](https://classroom.github.com/a/iidjEaf-).
 
-![Github Invite Screen](images/github-invite-screen.png)
+![Github Invite Screen](images/webui/github-invite-screen.png)
 
 If you get an error message, wait a few seconds, then click `Retry Repository Setup`.  If it still fails, contact emcgee@bju.edu.  If everything works, click the URL for your new repository.
 
-![Github Invite Finished](images/github-invite-finished.png)
+![Github Invite Finished](images/webui/github-invite-finished.png)
 
 ### Updating an Assignment Repository
 
@@ -24,20 +24,20 @@ To test an assignment, click the `Check Submission` link at the top of the READM
 
 If this is your first time using our testing software, you'll need to authorize the Communicator application to access your Github profile (the only information accessed is your Github username).
 
-![Install OAuth](images/install-oauth.png)
+![Install OAuth](images/webui/install-oauth.png)
 
 After this, you will need to sign into [Jenkins](https://protect.bju.edu/cps/jenkins) with your BJU username / password.
 
-![Login](images/login.png)
+![Login](images/webui/login.png)
 
 WARNING! Make sure that you enter your username in lowercase.  Using capital letters will cause the testing system to not recognize your login attempt and you will be denied access.
 
-![Login Lowercase](images/login-lowercase.png)
+![Login Lowercase](images/webui/login-lowercase.png)
 
 Once you're at the test page, simply click `Build Now` along the right hand side.
 
-![Build Now](images/build-now.png)
+![Build Now](images/webui/build-now.png)
 
 In the build results, if you get a blue dot, you've passed all the provided tests.  Note that you are still advised to create your own tests as the instructor tests are much more thorough than the Jenkins tests.
 
-![Build Now Done](images/build-now-done.png)
+![Build Now Done](images/webui/build-now-done.png)
