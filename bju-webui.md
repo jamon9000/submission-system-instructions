@@ -1,18 +1,10 @@
-# Instructions for BJU's Git System
+# Submission System Instructions
+
+These instructions describe how to use the Computer Science Submission System ("Submitter") to submit class assignments.
 
 > Note: The images here were produced on an OS X machine, but the same instructions (unless otherwise noted) also apply to Windows / Linux machines.
 
-# Sign In to Submitter / Jenkins
-
-Go to [Jenkins](https://protect.bju.edu/cps/jenkins), and you will need to sign into Jenkins with your BJU username / password.
-
-![Login](images/webui/login.png)
-
-WARNING! Make sure that you enter your username using *lowercase* letters.  Using capital letters will cause the testing system to not recognize your login attempt and you will be denied access.
-
-![Login Lowercase](images/webui/login-lowercase.png)
-
-### Submitting
+## Submitting Assignments
 
 To submit an assignment, go to [Submitter](https://protect.bju.edu/cps/submit/upload).
 
@@ -24,13 +16,17 @@ Use the accordion menu to find the correct class and assignment. Then click the 
 
 ![Submitter Assignment](images/webui/submiter-assignment.png)
 
-You can upload as many files as you need by using the `Upload Individual File` option below, or to upload multiple files, create a [Zip archive](https://www.wikihow.com/Make-a-Zip-File) with all your files in it then use the `Upload ZIP Archive` option.
+You can upload as many files as you need by using the `Upload Individual File` option, or to upload multiple files, create a [Zip archive](https://www.wikihow.com/Make-a-Zip-File) with all your files in it then use the `Upload ZIP Archive` option.
 
 > Note: Once a file is uploaded, you can delete it by right-clicking the file and selecting `Delete`.
 
-### Testing an Assignment
+## Testing an Assignment
 
-To test an assignment, click the `Check Submission` link at the top of the page.
+To test an assignment, click the `Check Submission` link at the top of the page. You will be prompted to login to Jenkins, the assignment checking system.
+
+> :warning: NOTE: Make sure that you enter your username in lowercase.  Using capital letters will cause the testing system to not recognize your login attempt and you will be denied access.
+
+![Login Lowercase](images/git/login-lowercase.png)
 
 Once you're at the test page, simply click `Build Now` along the right hand side.
 
