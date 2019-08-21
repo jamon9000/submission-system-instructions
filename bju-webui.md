@@ -22,13 +22,13 @@ You can upload as many files as you need by using the `Upload Individual File` o
 
 ## Testing an Assignment
 
-To test an assignment, click the `Check Submission` link at the top of the page. You will be prompted to login to Jenkins, the assignment checking system.
+To test an assignment, click the `Check Submission` link at the top of the page. You will be prompted to login to Jenkins, the assignment checking system. Login using your BJU network credentials.
 
 > :warning: NOTE: Make sure that you enter your username in lowercase.  Using capital letters will cause the testing system to not recognize your login attempt and you will be denied access.
 
 ![Login Lowercase](images/git/login-lowercase.png)
 
-Once you're at the test page, simply click `Build Now` along the right hand side.
+Once you're at the test page, click `Build Now` at the left side of the window.
 
 ![Build Now](images/webui/build-now.png)
 
