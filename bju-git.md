@@ -75,8 +75,6 @@ To clone an assignment, go to [Submitter](https://protect.bju.edu/cps/submit/upl
 
 ![Submitter Dashboard](images/webui/submiter-dashboard.png)
 
-> Note: Submitter only works on campus or over VPN.  If you are working off-campus, [install the VPN](https://rvpn.bju.edu).  When asked for a portal, the portal is `rvpn.bju.edu`.
-
 To retrieve the clone URL, use the accordion menu to find the correct class and assignment. Then click the assignment.  The url needed is at the top of the page.
 
 ![Submitter Assignment](images/webui/submiter-assignment.png)
