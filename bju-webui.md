@@ -10,8 +10,6 @@ To submit an assignment, go to [Submitter](https://protect.bju.edu/cps/submit/up
 
 ![Submitter Dashboard](images/webui/submiter-dashboard.png)
 
-> Note: Submitter only works on campus or over VPN.  If you are working off-campus, [install the VPN](https://rvpn.bju.edu).  When asked for a portal, the portal is `rvpn.bju.edu`.
-
 Use the accordion menu to find the correct class and assignment. Then click the assignment. 
 
 ![Submitter Assignment](images/webui/submiter-assignment.png)
