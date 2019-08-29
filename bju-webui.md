@@ -4,6 +4,8 @@ These instructions describe how to use the Computer Science Submission System ("
 
 > Note: The images here were produced on an OS X machine, but the same instructions (unless otherwise noted) also apply to Windows / Linux machines.
 
+You can [watch a short video](https://bju.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8d5ae2d3-c3e3-4d71-a287-a9520154baaa) that demonstrates how to do all of the below.
+
 ## Submitting Assignments
 
 To submit an assignment, go to [Submitter](https://protect.bju.edu/cps/submit/upload).
@@ -33,3 +35,4 @@ Once you're at the test page, click `Build Now` at the left side of the window.
 In the build results, if you get a blue dot, you've passed all the provided tests.  Note that you are still advised to create your own tests as the instructor tests are much more thorough than the Jenkins tests.
 
 ![Build Now Done](images/webui/build-now-done.png)
+
