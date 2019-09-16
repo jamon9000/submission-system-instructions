@@ -77,7 +77,7 @@ To clone an assignment, go to [Submitter](https://protect.bju.edu/cps/submit/upl
 
 To retrieve the clone URL, use the accordion menu to find the correct class and assignment. Then click the assignment.  The url needed is at the top of the page.
 
-![Submitter Assignment](images/webui/submiter-assignment.png)
+![Submitter Assignment](images/git/submiter-assignment-giturl.png)
 
 Copy the provided url and in command prompt (or terminal), enter the command 
 
