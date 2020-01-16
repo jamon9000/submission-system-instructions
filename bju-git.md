@@ -26,9 +26,9 @@ On Windows, open command prompt (for Linux / OS X, open terminal). Execute the  
 ssh-keygen -t rsa
 ```
 
-As shown in the image above, you should press enter at each prompt to accept the defaults (we recommend not setting a passphrase).
+As shown in the image below, you should press enter at each prompt to accept the defaults (we recommend not setting a passphrase).
 
-> NOTE: If the ssh-keygen command is not installed on your system, see [these instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to install it. You do not need to install the OpenSSH server - only the client.
+> NOTE: If the ssh-keygen command is not installed on your Windows system, you can either try using the "Git Bash" shell (on the Windows start menu), which includes ssh-keygen, or you can see [these instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to install the OpenSSH client for Windows, which includes ssh-keygen. You do not need to install the OpenSSH server - only the client.
 
 ![SSH Keygen Output](images/git/ssh-keygen-output.png)
 
