@@ -20,24 +20,6 @@ Inside the repository, there are two main buttons you'll use: `Create New File` 
 
 ### Testing an Assignment
 
-To test an assignment, click the `Check Submission` link at the top of the README in your repository.
+To test an assignment, go to [Codepost](https://codepost.io) or click the `Check Submission` link at the top of the repository if your professor has not yet migrated to Codepost.  In codepost, click the course you are currently enrolled in and then click the assignment to see test results.  The code you submitted to Github should have automatically been forward to Codepost.  If it did not, you can manually upload your assignments to Codepost for testing.
 
-If this is your first time using our testing software, you'll need to authorize the Communicator application to access your Github profile (the only information accessed is your Github username).
-
-![Install OAuth](images/webui/install-oauth.png)
-
-After this, you will need to sign into [Jenkins](https://protect.bju.edu/cps/jenkins) with your BJU username / password.
-
-![Login](images/webui/login.png)
-
-WARNING! Make sure that you enter your username in lowercase.  Using capital letters will cause the testing system to not recognize your login attempt and you will be denied access.
-
-![Login Lowercase](images/webui/login-lowercase.png)
-
-Once you're at the test page, simply click `Build Now` along the right hand side.
-
-![Build Now](images/webui/build-now.png)
-
-In the build results, if you get a blue dot, you've passed all the provided tests.  Note that you are still advised to create your own tests as the instructor tests are much more thorough than the Jenkins tests.
-
-![Build Now Done](images/webui/build-now-done.png)
+If this is your first time using our testing software, you'll need to authorize the [Communicator application](https://protect.bju.edu/cps/checker/test/test) to access your Github profile (the only information accessed is your Github username).
