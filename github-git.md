@@ -2,32 +2,9 @@
 
 > Note: The images here were produced on an OS X machine, but the same instructions (unless otherwise noted) also apply to Windows / Linux machines.
 
-### Setting up for Command Line Submission
-
-To start, ensure that you have installed the Git Command Line Tools for your operating system, see [here](README.md) if you have not yet done so.
-
-On Windows, open command prompt (for Linux / OS X, open terminal), and enter the command `ssh-keygen -t rsa`, pressing enter.  Accept the defaults.
-
-![SSH Keygen Output](images/git/ssh-keygen-output.png)
-
-After the command completes, in command prompt enter the command `notepad %USERPROFILE%\.ssh\id_rsa.pub`.  If on OS X / Linux, enter the command `cat ~/.ssh/id_rsa.pub`. Copy the long string of text that appears, then go to [Github](https://github.com).  If you do not already have an account, create one.  Once you're logged in, go to Settings.
-
-![Github Settings](images/git/github-profile.png)
-
-Click on `SSH and GPG Keys` in the side menu, and add a New SSH Key.  Enter something memorable for the name and paste the long string you copied earlier into the second box, then save.
-
-![Github Add SSH Key](images/git/github-add-ssh-key.png)
-
-Now configure Git by running the following commands in Command Prompt / Terminal,
-
-    git config --global user.name "<bju username>"
-    git config --global user.email "<bju email>"
-
-replacing `<bju username>` with your BJU username and `<bju email>` with your BJU email.
-
 ### Accessing the Assignment
 
-Once your profile has been configured, click the invitation URL provided to you by your professor.  A sample assignment for you to follow along with is provided [here](https://classroom.github.com/a/iidjEaf-).
+Click the invitation URL provided to you by your professor.  A sample assignment for you to follow along with is provided [here](https://classroom.github.com/a/iidjEaf-).
 
 ![Github Invite Screen](images/git/github-invite-screen.png)
 
