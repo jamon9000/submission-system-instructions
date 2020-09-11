@@ -14,12 +14,24 @@ If you get an error message, wait a few seconds, then click `Retry Repository Se
 
 ### Updating an Assignment Repository
 
-Inside the repository, there are two main buttons you'll use: `Create New File` and `Upload Files`.  Create New File allows you to create and edit a file directly in Github.  Upload allows you to upload files from your desktop.
+Inside the repository, there are one main button you'll use: `Add File`.  Under this button, you'll find an option for creating a new file as well as uploading files.
+
+![Github Add File](images/webui/github-add-file.png)
 
 > Note: Once a file is uploaded / created, you can edit / rename / delete the file by clicking the file, and then clicking the pencil icon at the top of the page.
 
 ### Testing an Assignment
 
-To test an assignment, go to [Codepost](https://codepost.io) or click the `Check Submission` link at the top of the repository if your professor has not yet migrated to Codepost.  In codepost, click the course you are currently enrolled in and then click the assignment to see test results.  The code you submitted to Github should have automatically been forward to Codepost.  If it did not, you can manually upload your assignments to Codepost for testing.
-
 If this is your first time using our testing software, you'll need to authorize the [Communicator application](https://protect.bju.edu/cps/checker/test/test) to access your Github profile (the only information accessed is your Github username).
+
+After you have connected your Github account to your BJU account, click the Actions tab at the top of your repository.  If you have not yet finished the assignment, the top entry will have a red x.  
+
+![Github Test Failure](images/webui/github-test-failed.png)
+
+Click the name of the result (beside the red x), and then click Autograding.  This will display the details of the failure.  Check to make sure your file names are exactly what was specified.
+
+![Github Test Failure Details](images/webui/github-test-failed-details.png)
+
+Once you fix the issue, you should get a green check.
+
+![Github Test Failure](images/webui/github-test-success.png)
