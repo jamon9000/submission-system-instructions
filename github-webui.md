@@ -1,7 +1,5 @@
 # Instructions for Github Classroom
 
-> Note: The images here were produced on an OS X machine, but the same instructions (unless otherwise noted) also apply to Windows / Linux machines.
-
 ### Accessing the Assignment
 
 Click the invitation URL provided to you by your professor.  A sample assignment for you to follow along with is provided [here](https://classroom.github.com/a/iidjEaf-).
