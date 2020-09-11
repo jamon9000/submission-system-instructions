@@ -18,11 +18,15 @@ Inside the repository, there are one main button you'll use: `Add File`.  Under 
 
 ![Github Add File](images/webui/github-add-file.png)
 
+Once you've finished making changes, make sure to scroll down and click Commit.
+
 > Note: Once a file is uploaded / created, you can edit / rename / delete the file by clicking the file, and then clicking the pencil icon at the top of the page.
 
 ### Testing an Assignment
 
 If this is your first time using our testing software, you'll need to authorize the [Communicator application](https://protect.bju.edu/cps/checker/test/test) to access your Github profile (the only information accessed is your Github username).
+
+![Checker Install](images/webui/install-oauth.png)
 
 After you have connected your Github account to your BJU account, click the Actions tab at the top of your repository.  If you have not yet finished the assignment, the top entry will have a red x.  
 

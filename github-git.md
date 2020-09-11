@@ -1,7 +1,5 @@
 # Instructions for Github Classroom
 
-> Note: The images here were produced on an OS X machine, but the same instructions (unless otherwise noted) also apply to Windows / Linux machines.
-
 ### Accessing the Assignment
 
 Click the invitation URL provided to you by your professor.  A sample assignment for you to follow along with is provided [here](https://classroom.github.com/a/iidjEaf-).
@@ -14,11 +12,11 @@ If you get an error message, wait a few seconds, then click `Retry Repository Se
 
 ### Cloning an Assignment Repository
 
-To retrieve the clone URL, click the green `Clone or Download` button in the corner. 
+To retrieve the clone URL, click the green `Code` button in the corner. 
 
 ![Github Clone](images/git/github-clone.png)
 
-If your menu says `Clone with SSH`, click the blue `Clone with HTTPS` link to change it.  Cloning Github repositories over SSH does not work on campus.
+If your menu says `Clone with SSH`, click the blue `Use HTTPS` link to change it.  Cloning Github repositories over SSH does not work on campus.
 
 Copy the provided url and in command prompt (or terminal), use the command `git clone <url>`.
 
@@ -48,26 +46,24 @@ You can check in the online repository browser to make sure the file made it to 
 
 ![Github Check Commit](images/git/github-check-commit.png)
 
+To update an assignment, you'll simply repeat this process with the new or changed files.  Note that if you receive an error message about the remote having changes that you do not, you will need to `git pull origin master` before you can push.
+
+![Github Pull Push](images/git/git-pull-push.png)
+
 ### Testing an Assignment
 
-To test an assignment, click the `Check Submission` link at the top of the README in your repository.
+If this is your first time using our testing software, you'll need to authorize the [Communicator application](https://protect.bju.edu/cps/checker/test/test) to access your Github profile (the only information accessed is your Github username).
 
-If this is your first time using our testing software, you'll need to authorize the Communicator application to access your Github profile (the only information accessed is your Github username).
+![Checker Install](images/git/install-oauth.png)
 
-![Install OAuth](images/git/install-oauth.png)
+After you have connected your Github account to your BJU account, click the Actions tab at the top of your repository.  If you have not yet finished the assignment, the top entry will have a red x.  
 
-After this, you will need to sign into [Jenkins](https://protect.bju.edu/cps/jenkins) with your BJU username / password.
+![Github Test Failure](images/git/github-test-failed.png)
 
-![Login](images/git/login.png)
+Click the name of the result (beside the red x), and then click Autograding.  This will display the details of the failure.  Check to make sure your file names are exactly what was specified.
 
-WARNING! Make sure that you enter your username in lowercase.  Using capital letters will cause the testing system to not recognize your login attempt and you will be denied access.
+![Github Test Failure Details](images/git/github-test-failed-details.png)
 
-![Login Lowercase](images/git/login-lowercase.png)
+Once you fix the issue, you should get a green check.
 
-Once you're at the test page, simply click `Build Now` along the right hand side.
-
-![Build Now](images/webui/build-now.png)
-
-In the build results, if you get a blue dot, you've passed all the provided tests.  Note that you are still advised to create your own tests as the instructor tests are much more thorough than the Jenkins tests.
-
-![Build Now Done](images/webui/build-now-done.png)
+![Github Test Failure](images/git/github-test-success.png)
