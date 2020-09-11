@@ -1,7 +1,5 @@
 # Select the Submission System
 
-[BJU's Git System](bju-git.md)
-
 [Github Classroom](github-git.md)
 
 # What is Git?
