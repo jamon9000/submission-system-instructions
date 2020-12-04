@@ -2,7 +2,7 @@
 
 ### Accessing the Assignment
 
-Click the invitation URL provided to you by your professor.  A sample assignment for you to follow along with is provided [here](https://classroom.github.com/a/iidjEaf-).
+Click the invitation URL provided to you by your professor.  A sample assignment for you to follow along with is provided [here](https://classroom.github.com/a/BCvKee2u).
 
 ![Github Invite Screen](images/webui/github-invite-screen.png)
 
