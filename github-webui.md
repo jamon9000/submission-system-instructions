@@ -4,13 +4,41 @@
 
 Click the invitation URL provided to you by your professor.  A sample assignment for you to follow along with is provided [here](https://classroom.github.com/a/BCvKee2u).
 
-![Github Invite Screen](images/webui/github-invite-screen.png)
+First, authorize Github classroom to access your account.
 
-If you get an error message, wait a few seconds, then click `Retry Repository Setup`.  If it still fails, contact emcgee@bju.edu.  If everything works, click the URL for your new repository.
+![Github Invite Screen](images/webui/github-authorize.png)
 
-![Github Invite Finished](images/webui/github-invite-finished.png)
+The accept the assignment.
 
-### Updating an Assignment Repository
+![Github Invite Screen](images/webui/github-accept-assignment.png)
+
+You'll need to wait a few moments, then refresh the page.
+
+![Github Wait](images/webui/github-wait.png)
+
+If everything works, you can either click Work in Repl.it to work in an online IDE or click the URL to access your new repository.
+
+![Github Invite Finished](images/webui/github-ready.png)
+
+### Updating an Assignment Repository (via Repl.it)
+
+Click Work in Repl.it (either at the top of your README or on the accept accepted screen).  You'll need to give Github a few more permissions for this to work.
+
+![Github More Permissions](images/webui/github-moar-permissions.png)
+
+Click the Work in Repl.it button again, and you should be good to go. After cloning, the environment is ready to use.
+
+![Repl.it](images/webui/replit.png)
+
+Click the README.md file to read the instructions.
+
+We need to add a file named yay.txt.  Click the Add File button to do that.  Now we need to submit that to Github for grading.  Click the weird fork symbol on the left.
+
+![Repl.it Fork](images/webui/fork.png)
+
+Now type a message then press Commit & Push.  Click the link to your repository at the top of this pane, then  jump on down to Testing an Assignment.
+
+### Updating an Assignment Repository (via Github)
 
 Inside the repository, there are one main button you'll use: `Add File`.  Under this button, you'll find an option for creating a new file as well as uploading files.
 
