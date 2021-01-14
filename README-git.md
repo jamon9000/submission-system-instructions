@@ -14,7 +14,7 @@ Git's command line tools can be installed on Windows using the following [instal
 
 ### OS X
 
-Git is installed alongside OS X's native development tool suite.  To install the development tools, open a terminal and execute the command `xcode-select --install`.  It is also recommended that you install a [package maanger for OS X](https://brew.sh/) to make it easier to install certain development tools used by our curriculum; Git can alternatively be installed using this package manager with the command: `brew install git`.
+Git is installed alongside OS X's native development tool suite.  To install the development tools, open a terminal and execute the command `xcode-select --install`.  It is also recommended that you install a [package manager for OS X](https://brew.sh/) to make it easier to install certain development tools used by our curriculum; Git can alternatively be installed using this package manager with the command: `brew install git`.
 
 ### Linux
 
