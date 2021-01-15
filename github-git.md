@@ -38,7 +38,7 @@ Once you have the files you want to save staged, use `git commit -m "<descriptio
 
 ![Github Commit](images/git/git-commit.png)
 
-Then send that commit to Github with `git push origin master`.
+Then send that commit to Github with `git push origin main`.
 
 ![Github Push](images/git/git-push.png)
 
@@ -46,7 +46,7 @@ You can check in the online repository browser to make sure the file made it to 
 
 ![Github Check Commit](images/git/github-check-commit.png)
 
-To update an assignment, you'll simply repeat this process with the new or changed files.  Note that if you receive an error message about the remote having changes that you do not, you will need to `git pull origin master` before you can push.
+To update an assignment, you'll simply repeat this process with the new or changed files.  Note that if you receive an error message about the remote having changes that you do not, you will need to `git pull origin main` before you can push.
 
 ![Github Pull Push](images/git/git-pull-push.png)
 
